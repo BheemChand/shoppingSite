@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title> Psports </title>
+  <link href="styles/site.css" type="text/css" rel="stylesheet" />
+  <link rel="shortcut icon" href="images/psportslogo.png">
+</head>
+<body>
+  <div class="container">
+
+  </div>
+
+  <div class="topnav" id="myTopnav">
+    <a href="index.html">Home</a>
+    <a href="brands.html">Brands</a>
+    <a href="contact.html">Contact Us</a> 
+    <a href="about.html" class="current">About</a>
+    <a href="register.html">Register Here</a>
+
+  </div>
+
+
+  <div class="date00">
+    <SCRIPT LANGUAGE="JavaScript">
+      var now = new Date();
+
+      var days = new Array('Sunday', 'Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday');
+
+      var months = new Array('January', 'February', 'March', 'April', 'May', 'June', 'July', 'August', 'September', 'October', 'November', 'December');
+
+      var date = ((now.getDate() < 10) ? "0" : "") + now.getDate();
+
+      function fourdigits(number) {
+        return (number < 1000) ? number + 1900 : number;
+      }
+      today = days[now.getDay()] + ", " +
+        months[now.getMonth()] + " " +
+        date + ", " +
+        (fourdigits(now.getYear()));
+
+      document.write(today);
+    </script>
+  </div>
+
+  <h1> PSPORTS is a Online Store, Launched in 2021, . </h1>
+  <h3> Sports Brand related products can be purchased here with reasonable price! </h3> 
+  <p style="font-family: 'Times New Roman', Times, serif; font-size: 2vw; border: 2px solid black; padding: 13px; margin: 15px;background-color: orangered; color: white;">
+    This is a sample of E- Commerce (Practical Project) <br>
+    Made by - Bheem Chand  <br>
+   
+  </p><br><br>
+  <p class="para">You can email us at chandkapil24@gmail.com or 6398319676</p>
+  <h1> Register Now to stay connected with us for Weekly Offers and Discounts! </h1>
+
+</body>
+<script src="scripts/date.js"> </script>
+
+</html>
